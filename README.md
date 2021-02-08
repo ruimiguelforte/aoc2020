@@ -14,7 +14,7 @@ I have chosen to work with the following constraints, just for the sake of pract
 
 I am using the following conventions:
 
-- To avoid incorporating messy io within the solutions, I have dowloaded all the input files, renamed them with the day 
+- To avoid incorporating messy I/O within the solutions, I have dowloaded all the input files, renamed them with the day 
   number as a prefix and placed them in the data directory. 
   I then use a common function to import the data into a list where each element is a line of the input file. You can 
   find the function that does this in `problems/common.py`
@@ -24,8 +24,8 @@ I am using the following conventions:
 
 ## How to Run the Code
 
-The repository uses `pipenv` to set up dependencies, so use pipenv install to create a nice virtual environment for you
-and install the `pytest` dependency.
+The repository uses `pipenv` to set up dependencies, so use `pipenv install` to create a nice virtual environment for 
+you and install the `pytest` dependency.
 
 Here's how to get the answers for a particular day:
 
